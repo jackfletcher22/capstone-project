@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Document</title>
+    </head>
+    
+<h1>Camping Journal</h1>
+            
+<body>
+    
+    <div class="checklist">
+        <h3> Checklist</h3>
+        <input type="text" id="checklistInput" placeholder="add an item">
+        <button onclick="addChecklistItem()">Add</button>
+        <ul id="checklist"></ul>
+        <input type = "checkbox" id="item1" value="tent">
+        <label for=" item1"> tent</label><br>
+        <input type="checkbox" id="item2" value="sleeping bag">
+        <label for="item2"> sleeping bag</label><br>
+        <input type="checkbox" id="item3" value="sleeping pad">
+        <label for="item3"> sleeping pad</label><br>
+        <input type="checkbox" id="item4" value="cooking utensils">
+        <label for="item4"> cooking utensils</label><br>
+        <input type="checkbox" id="item5" value="eating utensils">
+        <label for="item5"> eating utensils</label><br>
+        <input type="checkbox" id="item6" value="water">
+        <label for="item5"> water</label><br>
+        <input type="checkbox" id="item6" value="food">
+        <label for="item6">food</label><br>
+        <input type="checkbox" id="item7" value="fire wood">
+        <label for="item7"> fire wood</label><br>
+        <input type="checkbox" id="item8" value="toiletries">
+        <label for="item8">toiletries</label><br>
+        <input type="checkbox" id="item9" value="clothes">
+        <label for="item9">clothes</label><br>
+    </div>
+    
+    <div class="wishlist">
+        <h3>My wishlist </h3>
+        <input type="text" id="itemInput" placeholder="Enter a destination">
+        <button onclick="addItem()">Add</button>
+        <ul id="wishlist"></ul>
+    </div>
+    
+    <div class="dropdown">
+        <h3>Resources</h3>
+        <div class="dropdown-content"></div>
+        <a href="https://www.noaa.gov/weather">weather</a>
+        <a href="https://bookoutdoors.com/discover/utah?hsa_ver=3&utm_medium=ppc&gad=1&hsa_ad=651583137746&hsa_acc=9348995086&hsa_grp=143948173646&utm_source=adwords&hsa_kw=find%20campground&hsa_mt=p&gclid=Cj0KCQjw7aqkBhDPARIsAKGa0oIJ49IT0Ffae6qPeJm_8WpBInMYKURyk3jnmj6mtmMWPdnryI6Z4rEaAkfNEALw_wcB&hsa_src=g&hsa_tgt=kwd-303537435547&utm_term=find%20campground&hsa_net=adwords&hsa_cam=19578062287&utm_campaign=SR%20%7C%20NB%20%7C%20UT%20%7C%20Camping%20%7C%20Zion%20%26%20Arches%20National%20Park">campsite availibility</a>
+        <a href="https://www.udot.utah.gov/connect/current-conditions/road-conditions//">road conditions</a>
+    </div>
+</div>
+<form>
+    <h3> Login </h3>
+    <input type="text" id="username" placeholder="username">
+    <input type="text" id="password" placeholder="password">
+    <button id="submitBtn"> Submit</button>
+</div>
+</form>
+<script src="index.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</html>
+

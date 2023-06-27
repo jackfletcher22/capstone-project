@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #E3C77F ;
+
+  }
+  
+  .header {
+    font-family: "ucida Sans Unicode", Courier, monospace;
+    font-size: 16px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: whitesmoke;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;   
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 10vh;
+    background-color: #000000;
+  }
+  
+  header h1 {
+    font-size: 35px;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .checklist,
+  .wishlist,
+  .dropdown {
+    flex-basis: 30%;
+    margin-right: 10px;
+  }
+  
+  .checklist input[type="text"],
+  .wishlist input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .checklist button,
+  .wishlist button {
+    padding: 8px 16px;
+    font-size: 16px;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    padding: 8px;
+    z-index: 1;
+  }
+  
+ 
+  
+  
